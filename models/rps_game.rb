@@ -26,7 +26,14 @@ class RPSGame
     end
   end
   
-  def self.computer_play(choice)
+  def computer_play
+    cplay = rand(1..3)
+    if cplay == 1 
+      "rock"
+    elsif cplay == 2 
+      "paper"
+    elsif cplay == 3
+      "scissors"
     rand
   
   
