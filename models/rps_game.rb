@@ -19,7 +19,8 @@ class RPSGame
   end
   
   self.valid_play?(play)
-    
+    if play == "rock" || play =="paper" || play == "scissors"
+      return true 
   end
   
   
