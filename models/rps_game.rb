@@ -35,6 +35,7 @@ class RPSGame
     elsif cplay == 3
       "scissors"
     end
+  end
   
   
 
