@@ -37,6 +37,9 @@ class RPSGame
     end
   end
   
+  def won?
+    
+  
   
 
   class PlayTypeError < StandardError
