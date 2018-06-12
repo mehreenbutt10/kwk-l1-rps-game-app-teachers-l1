@@ -26,6 +26,9 @@ class RPSGame
     end
   end
   
+  def self.computer_play(choice)
+    rand
+  
   
 
   class PlayTypeError < StandardError
