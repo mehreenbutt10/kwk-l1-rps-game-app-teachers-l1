@@ -18,10 +18,15 @@ class RPSGame
     @choice = choice
   end
   
+  self.valid_play?(play)
+
+  end
+  
+  
 
   class PlayTypeError < StandardError
      
   end
-
+  
 
 end
