@@ -18,9 +18,10 @@ class RPSGame
     @choice = choice
   end
   
-  self.valid_play?(play)
+  def self.valid_play?(play)
     if play == "rock" || play =="paper" || play == "scissors"
-      return true 
+      true 
+    end
   end
   
   
