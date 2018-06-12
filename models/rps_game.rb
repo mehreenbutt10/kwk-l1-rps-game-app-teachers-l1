@@ -34,7 +34,7 @@ class RPSGame
       "paper"
     elsif cplay == 3
       "scissors"
-    rand
+    end
   
   
 
