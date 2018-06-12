@@ -19,7 +19,7 @@ class RPSGame
   end
   
   self.valid_play?(play)
-
+    
   end
   
   
