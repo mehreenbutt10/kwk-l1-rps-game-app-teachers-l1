@@ -1,12 +1,27 @@
 class RPSGame
-
-  # Write your code here!
-
-
+  @@valid_plays = ["rock", "paper", "scissors"]
+  
+  def initialize(choice)
+    if @choice == "rock" || @choice == "paper" || @choice == "scissors"
+      @choice = choice
+    else 
+      raise PlayTypeError
+    end
+  end 
+  
+  
+  def choice
+    @choice
+  end
+  
+  def choice= (choice)
+    @choice = choice
+  end
+  
 
   class PlayTypeError < StandardError
-    # Don't be alarmed! This is a class set inside a class, but works just fine in Ruby
-    # In this case, we're creating a custom error that should be raised if RPSGame.new receives an invalid move as an argument
+     
   end
+
 
 end
