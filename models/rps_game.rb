@@ -21,6 +21,8 @@ class RPSGame
   def self.valid_play?(play)
     if play == "rock" || play =="paper" || play == "scissors"
       true 
+    else
+      false
     end
   end
   
